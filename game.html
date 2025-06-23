@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+
+    <link rel = "stylesheet" href = "game.css">
+
+</head>
+<body>
+    
+    <!-- HEADING -->
+
+    <h1>Rock Paper Scissors Game</h1>
+    
+    <!-- OPTIONS FOR THE GAME [ROCK,PAPER,SCISSORS] -->
+
+    <div class="choices">
+
+       <div class="choice" id="Rock">
+        <img src="./images/rock.png" alt="">
+       </div>
+       <div class="choice" id="Paper">
+        <img src="./images/paper.png" alt="">
+       </div>
+       <div class="choice" id="scissors">
+        <img src="./images/scissors.png" alt="">
+       </div>
+
+    </div>
+
+<!-- SCORE FOR THE GAME -->
+
+    <div class="score-board">
+
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>YOU</p>
+        </div>
+
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>COMP</p>
+        </div>
+    </div>
+
+    <!-- TEXT MASSSAGE ASKING FOR THE NEXT MOVE -->
+
+    <div class="massage-container">
+        <p id="msg">Play your move</p>
+    </div>
+
+
+    <script src = "game.js"></script>
+
+</body>
+</html>

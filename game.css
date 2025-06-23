@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* HEADING */
+
+h1{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    height: 4rem;
+    line-height: 4rem; /* this for adjusting virtically cneter*/
+}
+
+/* STONE,PAPER,SCISSORS [OPTIONS] */
+
+.choice{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+/* SCORE-BOARD */
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    gap: 4rem;
+}
+
+#user-score, #comp-score {
+    font-size: 3rem;
+}
+
+/* MASSAGE CONTAINER */
+
+.massage-container{
+    margin-top: 4rem;
+}
+
+#msg{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    margin-top: 5rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
